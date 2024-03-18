@@ -11,7 +11,7 @@ sudo apt install terminator
 run it
 
 ```
-sudo apt install terminator
+terminator
 ```
 
 #### Bash
