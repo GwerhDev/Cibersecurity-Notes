@@ -1,4 +1,4 @@
-## First steps ##
+## First steps
 
 #### Terminator
 
@@ -26,21 +26,16 @@ Change shell to bash permanently:
 chsh -s /bin/bash
 ```
 
-#### Keyboard config
+#### Language config
 
-Change keyboard language to spanish temporally:
-``` bash
-setxkbmap es sundeadkeys
-```
-
-Change keyboard language to spanish permanently:
-``` bash
-sudo dpkg-reconfigure locales
-```
-
-Then, unselect current language and select spanish language with "space" key. 
+Then, unselect current language and select your language with "space" key. 
 
 Finally, reboot:
 ``` bash
 reboot
 ```
+
+#### Keyboard config
+
+Go to "Settings Manager", select "Keyboard" and then "Layout" tab.
+
