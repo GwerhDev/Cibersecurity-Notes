@@ -28,6 +28,11 @@ chsh -s /bin/bash
 
 #### Language config
 
+Open configuration for locales
+``` bash
+sudo dpkg-reconfigure locales
+```
+
 Then, unselect current language and select your language with "space" key. 
 
 Finally, reboot:
