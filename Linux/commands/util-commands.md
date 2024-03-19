@@ -9,6 +9,7 @@ cd <route>
 ``` bash
 pwd
 ``` 
+
 #### List
 ``` bash
 ls <route>
@@ -31,7 +32,6 @@ touch
 | -m         | change modification date     |
 
 #### Copy
-
 ``` bash 
 cp <origin_route> <destiny_route>
 ```
@@ -42,7 +42,6 @@ cp <origin_route> <destiny_route>
 | -r         | copy directories              |
 
 #### Move
-
 ``` bash 
 mv <origin_route> <destiny_route>
 ```
@@ -53,7 +52,6 @@ mv <origin_route> <destiny_route>
 | -u         | rewrite older                 |
 
 #### Remove
-
 ``` bash 
 rm <route>
 ```
@@ -64,7 +62,6 @@ rm <route>
 | -r         | remove directories            |
 
 #### Make directory
-
 ``` bash 
 mkdir <directory_route>
 ```
@@ -74,13 +71,11 @@ mkdir <directory_route>
 | -p         | father directory              |
 
 #### Delete directory (empty directory only)
-
 ``` bash 
 rmdir <directory_route>
 ```
 
 #### Concatenate (read files into terminal)
-
 ``` bash 
 cat <file_route>
 ```
