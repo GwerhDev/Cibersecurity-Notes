@@ -5,8 +5,9 @@ Taken from [overthewire.org](https://overthewire.org/wargames/bandit/)
 ``` bash
 ssh bandit<level>@bandit.labs.overthewire.org -p 2220
 ```
-
-password: bandit0
+| initial level password |
+| ---------------------- |
+| bandit0                |
 
 #### Level 0 -> 1
 ``` bash
