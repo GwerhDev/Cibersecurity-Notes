@@ -95,3 +95,113 @@ cat data.txt | sort | uniq -u
 | next level password              |
 | -------------------------------- |
 | EN632PlfYiZbn3PhVK3XOGSlNInNE00t |
+
+#### Level 9 -> 10
+
+``` bash
+contador=1 strings data.txt | grep "===" | while read line; do echo "Line $contador": $line; let contador+=1; done | awk 'NR==4' | awk 'NF{print $NF}'
+```
+
+| next level password              |
+| -------------------------------- |
+| G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s |
+
+#### Level 10 -> 11 
+
+``` bash
+cat data.txt | base64 -d | awk 'NF{print $NF}'
+```
+
+| next level password              |
+| -------------------------------- |
+| 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM |
+
+#### Level 11 -> 12
+
+``` bash
+cat data.txt | tr '[G-ZA-Fg-za-f]' '[T-ZA-St-za-s]' | awk 'NF{print $NF}'
+```
+
+| next level password              |
+| -------------------------------- |
+| JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv |
+
+#### Level 12 -> 13
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 13 -> 14
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 14 -> 15
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 15 -> 16
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 16 -> 17
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 17 -> 18
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 18 -> 19
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
+
+#### Level 19 -> 20
+
+``` bash
+
+```
+
+| next level password              |
+| -------------------------------- |
+|  |
